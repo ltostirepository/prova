@@ -1,9 +1,13 @@
+import os
 import gammalib
 import ctools
 import cscripts
 
-env CTADATA=/Users/lucatosti/Desktop/GEMINGA/1dc
-env CALDB=/Users/lucatosti/Desktop/GEMINGA/1dc/caldb 
+
+os.environ['CTADATA'] = '/Users/lucatosti/Desktop/GEMINGA/1dc'
+os.environ['CALDB'] = str('/Users/lucatosti/Desktop/GEMINGA/1dc/caldb')
+CTADATA = '/Users/lucatosti/Desktop/GEMINGA/1dc'
+CALDB = '/Users/lucatosti/Desktop/GEMINGA/1dc/caldb' 
 
 obsselect = cscripts.csobsselect()
 obsselect['inobs']     = '$CTADATA/obs/obs_gps_baseline.xml'
