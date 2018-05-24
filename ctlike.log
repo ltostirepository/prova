@@ -1,0 +1,108 @@
+2018-05-23T16:43:31: ********************************************************************************
+2018-05-23T16:43:31: *                                    ctlike                                    *
+2018-05-23T16:43:31: * ---------------------------------------------------------------------------- *
+2018-05-23T16:43:31: * Version: 1.5.2                                                               *
+2018-05-23T16:43:31: ********************************************************************************
+2018-05-23T16:45:33: +============+
+2018-05-23T16:45:33: | Parameters |
+2018-05-23T16:45:33: +============+
+2018-05-23T16:45:33:  inobs .....................: /Users/lucatosti/Desktop/GEMINGA/dati_ctools/cntcube.fits
+2018-05-23T16:45:33:  inmodel ...................: ts_model.xml
+2018-05-23T16:45:33:  expcube ...................: /Users/lucatosti/Desktop/GEMINGA/dati_ctools/expcube.fits
+2018-05-23T16:45:33:  psfcube ...................: /Users/lucatosti/Desktop/GEMINGA/dati_ctools/psfcube.fits
+2018-05-23T16:45:33:  edispcube .................: [not queried]
+2018-05-23T16:45:33:  bkgcube ...................: /Users/lucatosti/Desktop/GEMINGA/dati_ctools/bkgcube.fits
+2018-05-23T16:45:33:  caldb .....................: [not queried]
+2018-05-23T16:45:33:  irf .......................: [not queried]
+2018-05-23T16:45:33:  edisp .....................: no
+2018-05-23T16:45:33:  outmodel ..................: result.xml
+2018-05-23T16:45:33:  outcovmat .................: NONE
+2018-05-23T16:45:33:  statistic .................: DEFAULT
+2018-05-23T16:45:33:  refit .....................: no
+2018-05-23T16:45:33:  fix_spat_for_ts ...........: no
+2018-05-23T16:45:33:  chatter ...................: 2
+2018-05-23T16:45:33:  clobber ...................: yes
+2018-05-23T16:45:33:  debug .....................: no
+2018-05-23T16:45:33:  mode ......................: ql
+2018-05-23T16:45:33:  logfile ...................: ctlike.log
+2018-05-23T16:45:33: 
+2018-05-23T16:45:33: +===================+
+2018-05-23T16:45:33: | Input observation |
+2018-05-23T16:45:33: +===================+
+2018-05-23T16:45:33: === GObservations ===
+2018-05-23T16:45:33:  Number of observations ....: 1
+2018-05-23T16:45:33:  Number of models ..........: 2
+2018-05-23T16:45:33:  Number of observed events .: 157942
+2018-05-23T16:45:33:  Number of predicted events : 0
+2018-05-23T16:45:33: 
+2018-05-23T16:45:33: +=================================+
+2018-05-23T16:45:33: | Maximum likelihood optimisation |
+2018-05-23T16:45:33: +=================================+
+2018-05-23T16:45:33:  *** ERROR encounterted in the execution of ctlike. Run aborted ...
+2018-05-23T16:45:33:  *** ERROR in GCTAModelIrfBackground::eval(GEvent&, GObservation&, bool&): Invalid argument. Specified observation does not contain an IRF response.
+2018-05-23T16:45:33:  === GCTAObservation ===
+2018-05-23T16:45:33:   Name ......................: 
+2018-05-23T16:45:33:   Identifier ................: 
+2018-05-23T16:45:33:   Instrument ................: CTA
+2018-05-23T16:45:33:   Event file ................: /Users/lucatosti/Desktop/GEMINGA/dati_ctools/cntcube.fits
+2018-05-23T16:45:33:   Event type ................: CountsCube
+2018-05-23T16:45:33:   Statistic .................: cstat
+2018-05-23T16:45:33:   Ontime ....................: 102600 s
+2018-05-23T16:45:33:   Livetime ..................: 100548 s
+2018-05-23T16:45:33:   Deadtime correction .......: 0.98
+2018-05-23T16:45:33:   User energy range .........: undefined
+2018-05-23T16:45:33:  === GCTAPointing ===
+2018-05-23T16:45:33:   Pointing direction ........: (RA,Dec)=(265.98317464,-28.702366667)
+2018-05-23T16:45:33:  === GCTAResponseCube ===
+2018-05-23T16:45:33:   Energy dispersion .........: Not used
+2018-05-23T16:45:33:  === GCTACubeExposure ===
+2018-05-23T16:45:33:   Filename ..................: /Users/lucatosti/Desktop/GEMINGA/dati_ctools/expcube.fits
+2018-05-23T16:45:33:   Livetime ..................: 100548 sec
+2018-05-23T16:45:33:  === GEnergies ===
+2018-05-23T16:45:33:   Number of energies ........: 21
+2018-05-23T16:45:33:  === GGti ===
+2018-05-23T16:45:33:   Number of intervals .......: 57
+2018-05-23T16:45:33:   Ontime ....................: 102600 sec
+2018-05-23T16:45:33:   Elapsed time ..............: 3578760 sec
+2018-05-23T16:45:33:   MJD range .................: 59235.5 - 59276.9208333333 s (TT)
+2018-05-23T16:45:33:   UTC range .................: 2021-01-21T11:58:51 - 2021-03-03T22:04:51 s (TT)
+2018-05-23T16:45:33:   Reference MJD .............: 55197.0007660185
+2018-05-23T16:45:33:  === GSkyMap ===
+2018-05-23T16:45:33:   Number of pixels ..........: 90000
+2018-05-23T16:45:33:   X axis dimension ..........: 300
+2018-05-23T16:45:33:   Y axis dimension ..........: 300
+2018-05-23T16:45:33:   Number of maps ............: 21
+2018-05-23T16:45:33:   Shape of maps .............: (21)
+2018-05-23T16:45:33:  === GCTACubePsf ===
+2018-05-23T16:45:33:   Filename ..................: /Users/lucatosti/Desktop/GEMINGA/dati_ctools/psfcube.fits
+2018-05-23T16:45:33:  === GEnergies ===
+2018-05-23T16:45:33:   Number of energies ........: 21
+2018-05-23T16:45:33:   Number of delta bins ......: 200
+2018-05-23T16:45:33:   Delta range ...............: 1.875e-06 - 0.298501875 deg
+2018-05-23T16:45:33:  === GSkyMap ===
+2018-05-23T16:45:33:   Number of pixels ..........: 100
+2018-05-23T16:45:33:   X axis dimension ..........: 10
+2018-05-23T16:45:33:   Y axis dimension ..........: 10
+2018-05-23T16:45:33:   Number of maps ............: 4200
+2018-05-23T16:45:33:   Shape of maps .............: (200, 21)
+2018-05-23T16:45:33:  === GCTACubeBackground ===
+2018-05-23T16:45:33:   Filename ..................: /Users/lucatosti/Desktop/GEMINGA/dati_ctools/bkgcube.fits
+2018-05-23T16:45:33:  === GEnergies ===
+2018-05-23T16:45:33:   Number of energies ........: 21
+2018-05-23T16:45:33:  === GSkyMap ===
+2018-05-23T16:45:33:   Number of pixels ..........: 90000
+2018-05-23T16:45:33:   X axis dimension ..........: 300
+2018-05-23T16:45:33:   Y axis dimension ..........: 300
+2018-05-23T16:45:33:   Number of maps ............: 21
+2018-05-23T16:45:33:   Shape of maps .............: (21)
+2018-05-23T16:45:33:  === GCTAEventCube ===
+2018-05-23T16:45:33:   Number of events ..........: 157942
+2018-05-23T16:45:33:   Number of elements ........: 1800000
+2018-05-23T16:45:33:   Number of pixels ..........: 90000
+2018-05-23T16:45:33:   Number of energy bins .....: 20
+2018-05-23T16:45:33:   Time interval .............: 59235.5 - 59276.9208333333 days
+2018-05-23T16:45:33:   Energy interval ...........: 1 - 100 TeV
+2018-05-23T16:45:33:  === GSkyRegions ===
+2018-05-23T16:45:33:   Number of regions .........: 0
+2018-05-23T16:45:33:  
+2018-05-23T16:45:33: Application "ctlike" terminated after 122 wall clock seconds, consuming 0.59634 seconds of CPU time.
